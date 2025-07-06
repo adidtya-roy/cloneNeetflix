@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+/* this is the "herader design" start */
+.head-main-container{
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    /* mlar container design */
+.head-main-container .head-mlar_bg-container{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(0, 0, 0, 0.6);
+
+}
+
+    /* top header nav design */
+.head-main-container .head-mlar_bg-container .head-nav-container-top{
+   width: 60%;
+   margin: auto;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+   /* button design */
+.head-main-container .head-nav-container-top .head-nav-button{
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: red;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-main-container .head-nav-container-top .head-nav-button a{
+    color: white;
+    text-decoration: none;
+
+}
+   /* this is the "header body part design" */
+.head-main-container .head-mlar_bg-container .head-body-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+   /* this is "header body part -text design"  */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+   /* text-head-1 design */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .head-1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+    /* text-head-2 design */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .head-2{
+    font-size: 25px;
+}
+
+    /* text-head-3 design */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .head-3{
+    font-size: 25px;
+    margin-top: 20px ;
+}
+
+   /* this is the input design */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .header-body-input-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+    /* this is input design */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .header-body-input-container .h-b-input input{
+    width: 360px;
+    height: 10px;
+    padding: 22px 15px;
+    font-size: medium;
+    background-color: rgba(4, 149, 194, 0.2);
+    border: solid gray 0.5px;
+    color: white;
+    font-weight: 600;
+}
+
+    /* this is button desigtn */
+.head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .header-body-input-container .h-b-button button{
+    width: 220px;
+    height: 58px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+} 
+/* this is the "herader design" end */ 
+  
+    /*line-1 design  */
+.line-1{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(117, 115, 115);
+}
+
+/* this is the "main-body part design" Start */
+.main-body-container{
+    width: 100%;
+}
+
+    /* this is main container ---con-1 design  start*/
+.main-body-container .main-container-1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+}
+
+.main-body-container .main-container-1 .container-1-text{
+    width: 50;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-body-container .main-container-1 .container-1-text .hd-1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.main-body-container .main-container-1 .container-1-text .hd-2{
+    font-size: 25px;
+    line-height: 35px;
+    padding-right: 48px;
+}
+
+.main-body-container .main-container-1 .container-1-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body-container .main-container-1 .container-1-video img{
+  display: flex;
+  position: absolute;
+  padding-top: 50px;
+  z-index: 10;
+}
+
+.main-body-container .main-container-1 .container-1-video video{
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+}
+    /* this is main container ---con-1 design  end*/
+
+.main-body-container .main-line-1{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(117, 115, 115);
+}    
+
+    /* this is main container ---con-2 design start*/
+.main-container-2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main-container-2 .main-con-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-2 .main-con-img .img{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-container-2 .main-con-img .download-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid grey;
+    width: 300px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 300px;
+    position: absolute;
+    margin-bottom: 60px;
+}
+
+.main-container-2 .main-con-img .download-box .down-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container-2 .main-con-img .download-box .down-text span{
+    font-size: medium;
+    font-weight: 700;
+}
+
+.main-container-2 .main-con-img .download-box .down-text a{
+    font-size: medium;
+    color: #0082df;
+}
+
+.main-container-2 .main-con-img .download-box .down-icon i{
+    font-size: large;
+    font-weight: bold;
+}
+
+.main-container-2 .text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+   
+}
+
+.main-container-2 .text .text-1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-container-2 .text .text-2{
+    font-size: 22px;
+}
+
+    /* this is main container ---con-2 design end*/
+
+    /* line-2 design */   
+.main-body-container .main-line-2{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(117, 115, 115);
+} 
+
+
+    /* this is main container ---con-3 design start*/
+.main-body-container .main-container-3{
+    width: 60%;
+    margin: auto;
+    padding: 100px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+   
+} 
+
+.main-body-container .main-container-3 .head-1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.main-body-container .main-container-3 .head-2{
+    font-size: 1.7rem;
+}
+    /* this is main container ---con-3 design end*/
+
+    /* line-3 design */
+.main-body-container .main-line-3{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(117, 115, 115);
+}
+
+    /* this is main container ---con-4 design start*/
+.main-body-container .main-container-4{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}   
+
+.main-body-container .main-container-4 .m-con-text{
+   display: flex;
+   flex-direction: column;
+   padding-left: 20px;
+
+}
+
+.main-body-container .main-container-4 .m-con-text .head{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.main-body-container .main-container-4 .m-con-text .para{
+    font-size: 28px;
+}
+    /* this is main container ---con-4 design end*/
+
+    /* line-4 design */
+.main-body-container .main-line-4{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(117, 115, 115);
+}   
+
+    /* this is main container ---con-5 design start*/
+.main-body-container .main-container-5{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+   
+} 
+    /* this is the "header in main--container-5"  design*/
+.main-body-container .main-container-5 .mn-con-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+
+    /* this is the "Box in main--container-5"  design*/
+.main-body-container .main-container-5 .mn-con-box{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-body-container .main-container-5 .mn-con-box a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-body-container .main-container-5 .mn-con-box .box-1 .link{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.main-body-container .main-container-5 .mn-con-box .box-1 .plass{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.main-body-container .main-container-5 .mn-con-box .box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    padding-right: 30px;
+    margin: 5px 0px;
+    background-color: rgb(37, 37, 37);
+   
+}
+
+.main-body-container .main-container-5 .mn-con-box .box-1:hover{
+    background-color: rgb(88, 87, 87);
+}
+
+    /* this is the "input in main-container-5"  design*/
+.main-body-container .main-container-5 .mn-con-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+
+}
+
+.main-body-container .main-container-5 .mn-con-input .in-text{
+    font-size: large;
+    font-weight: 500;
+}
+
+.main-body-container .main-container-5 .mn-con-input .in-box{
+    display: flex;
+    margin: 20px;
+}
+
+.main-body-container .main-container-5 .mn-con-input input{
+    width: 360px;
+    height: 10px;
+    padding: 22px 15px;
+    font-size: medium;
+    background-color: rgba(51, 68, 73, 0.2);
+    border: solid rgb(42, 40, 40) 0.5px;
+    color: white;
+    font-weight: 600; 
+    margin-right: 15px;
+}
+
+.main-body-container .main-container-5 .mn-con-input button{
+    width: 220px;
+    height: 58px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+    /* line-5 design */
+.main-body-container .main-line-5{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(117, 115, 115);
+}   
+/* this is the "main-body part design" end */
+
+
+/* this is the "footer part design" Start */
+.ft-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ft-container a{
+    color: white;
+    font-size: small;
+}
+
+.ft-container .text-1{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 60px;
+}
+
+.ft-container .text-2{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+.ft-container .text-3{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+.ft-container .text-4{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+
+
+/* desktop vew */
+
+@media (min-width:1024px) and (max-width:1920px){  
+    body{
+        width: 100%;
+    }  
+        /* this is the "header body part design" */
+    .head-main-container .head-mlar_bg-container .head-body-container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+    }
+
+   /* text-head-1 design */
+   .head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .head-1{
+        width: 100%;
+        font-size: 43px;
+        font-weight: 900;
+    }
+
+    .head-main-container .head-mlar_bg-container .head-body-container .header-body-text-container .header-body-input-container .h-b-input input{
+        width: 520px;
+        height: 10px;
+        padding: 22px 15px;
+        font-size: medium;
+        background-color: rgba(4, 149, 194, 0.2);
+        border: solid gray 0.5px;
+        color: white;
+        font-weight: 600;
+    }
+
+
+
+}
